@@ -1,7 +1,7 @@
 import { createContext, useState, useContext, useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
 import { Map } from 'immutable';
-import { auth } from "../firebase";
+import { auth } from "./ics4u-summative/firebase";
 
 const StoreContext = createContext();
 

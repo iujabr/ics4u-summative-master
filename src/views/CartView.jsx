@@ -1,3 +1,6 @@
+import { useContext } from "react";
+import { UserContext } from "../contexts/UserContext";
+import React from "react";
 import { useStoreContext } from "../context";
 import { firestore } from "../firebase";
 import { doc, setDoc } from "firebase/firestore";
